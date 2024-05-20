@@ -1,0 +1,149 @@
+/* Text style START */
+.p-in-columns {
+  font-size: 18px;
+}
+
+.p-text {
+  font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.hidden-text {
+  display: none;
+}
+/* Text style END */
+
+
+/* MAIN START */
+
+/* first-section START */
+.first-section div {
+  padding: 5px 15px;
+  margin: 0 auto;
+  /* border: 1px solid #000; */
+  font-size: 24px;
+}
+
+.first-section div > * {
+  text-align: center;
+}
+
+.in-sc {
+  font-weight: bold;
+  /* color: #267F00; */
+  /* text-transform: uppercase; */
+}
+
+.sc-news {
+  width: 600px;
+  background: #FBD2D3;
+  border-radius: 8px;
+  box-shadow: 0 0 10px -1px #000;
+}
+
+.we-repair {
+  color: red;
+  text-transform: uppercase;
+}
+/* first-section END */
+
+
+/* secondSection START */
+.secondSection {
+  display: flex;
+  justify-content: center;
+}
+
+.repair {
+  width: 400px;
+  /* border: 1px solid blue; */
+  padding-bottom: 10px;
+}
+
+.repair div {
+  padding: 0 15px;
+}
+
+.images-div {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.repair-images {
+  height: 230px;
+  margin: 0 auto;
+}
+
+.repair div h3 {
+  text-align: center;
+  /* padding-bottom: 14px; */
+}
+/* secondSection END */
+
+
+/* thirdSection START */
+.sc-info {
+  padding: 5px 15px;
+  margin: 0 auto;
+
+  width: 1000px;
+  background: #cef6d3;
+  border-radius: 8px;
+  box-shadow: 0 0 10px -1px #000;
+}
+
+.phone-number {
+  cursor: default;
+}
+
+.phone-number-image {
+  width: 100%;
+}
+/* thirdSection END */
+
+/* MAIN END */
+
+
+@media(max-width: 1200px) {
+  .repair-images {
+    height: 200px;
+  }
+
+  .sc-info {
+    width: 80%;
+  }
+}
+
+@media(max-width: 767px) {
+  .sc-news {
+    width: 80%;
+  }
+
+  .secondSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .repair {
+    width: 80%;
+  }
+
+  .repair-images {
+    height: 300px;
+  }
+}
+
+@media(max-width: 600px) {
+  .first-section div {
+    font-size: 20px;
+  }
+
+  .repair-images {
+    height: 150px;
+  }
+
+  .p-text {
+    font-size: 18px;
+  }
+}
