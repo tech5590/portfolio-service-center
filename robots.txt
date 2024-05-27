@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Host: tech5590.github.io/portfolio-service-center
