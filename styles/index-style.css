@@ -8,10 +8,6 @@
   font-size: 20px;
   line-height: 1.5;
 }
-
-.hidden-text {
-  display: none;
-}
 /* Text style END */
 
 
@@ -37,13 +33,15 @@
 
 .sc-news {
   width: 600px;
-  background: #FBD2D3;
+  /* background: #FBD2D3; */
+  background: #FFC5A5;
   border-radius: 8px;
   box-shadow: 0 0 10px -1px #000;
+  border-left: 5px solid #e44d26;
 }
 
 .we-repair {
-  color: red;
+  color: #267F00;
   text-transform: uppercase;
 }
 /* first-section END */
@@ -63,11 +61,6 @@
 
 .repair div {
   padding: 0 15px;
-}
-
-.images-div {
-  margin: 0 auto;
-  width: fit-content;
 }
 
 .repair-images {
@@ -91,14 +84,6 @@
   background: #cef6d3;
   border-radius: 8px;
   box-shadow: 0 0 10px -1px #000;
-}
-
-.phone-number {
-  cursor: default;
-}
-
-.phone-number-image {
-  width: 100%;
 }
 /* thirdSection END */
 
