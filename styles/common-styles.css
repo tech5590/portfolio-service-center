@@ -90,23 +90,44 @@ h1 {
 /* NAV END */
 
 
+.images-div {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+
 /* LINKS STYLE START */
 .a-style {
-  text-decoration: none;
   color: #000;
   transition-duration: 0.3s;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 0.5px;
+  /* transition: outline-width, 0s; */
 }
 
 .a-style:hover {
   /* color: #e44d26; */
   background: #e44d26;
   color: white;
+  text-decoration: none;
 }
 
-/* .a-style:focus-visible {
-  background: #e44d26;
-} */
+:focus-visible {
+  outline: 3px solid #e44d26;
+  border-radius: 3px;
+}
 /* LINKS STYLE END */
+
+
+/* PHONE NUMBER STYLE START */
+.phone-number {
+  cursor: default;
+}
+
+.phone-number-image {
+  width: 100%;
+}
+/* PHONE NUMBER STYLE END */
 
 
 /* UP-BUTTON START */

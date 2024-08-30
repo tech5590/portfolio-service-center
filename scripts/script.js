@@ -46,7 +46,7 @@ function turnOnPhoneNumber(mobile, touch) {
   let phone = document.getElementById("phone-number");
 
   if (mobile && touch) {
-    phone.setAttribute("href", "tel:+380991234567");
+    return phone.setAttribute("href", "tel:+380991234567");
   }
 }
 
@@ -83,9 +83,11 @@ window.onscroll = () => {
 
 //   for (let i = 0; i < links.length; i++) {
 //     links[i].style.background = "#e44d26";
-//     links[i].style.background = "";
+    
+//     setTimeout(() => { links[i].style.background = ""; }, (300 + i * 1000 / (i + 1)));
 //   }
 // }
 
 // linkBlink();
+
 
