@@ -18,13 +18,11 @@ body {
 .container {
   max-width: 1240px;
   margin: 0 auto;
-  /* border: 1px solid #000; */
 }
 
 
 /* HEADER START */
 .header {
-  /* background: #CEF6D3; */
   padding: 20px 0;
 }
 
@@ -38,7 +36,7 @@ body {
   padding: 0 15px;
 }
 
-h1 {
+.header__title {
   background: #267F00;
   text-align: center;
   padding: 14px 15px;
@@ -102,13 +100,11 @@ h1 {
   transition-duration: 0.3s;
   text-decoration-style: dotted;
   text-decoration-thickness: 0.5px;
-  /* transition: outline-width, 0s; */
 }
 
 .a-style:hover {
-  /* color: #e44d26; */
   background: #e44d26;
-  color: white;
+  color: #fefcfc;
   text-decoration: none;
 }
 
@@ -153,7 +149,7 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   border-radius: 20px;
-  color: white;
+  color: #fefcfc;
   box-shadow: 0 0 10px -1px #000;
   position: fixed;
   right: 10px;
@@ -170,7 +166,6 @@ h1 {
 
 /* FOOTER START */
 footer {
-  /* background: #CEF6D3; */
   padding: 20px 0;
 }
 
